@@ -1,0 +1,2 @@
+execute as @e[tag=energy_enabled,scores={energy_mode=0}] if score @s peakenergy > @s peakenergy_max run scoreboard players operation @s peakenergy = @s peakenergy_max
+execute as @e[tag=energy_enabled,scores={energy_mode=0}] if score @s peakenergy < @s peakenergy_min run scoreboard players operation @s peakenergy = @s peakenergy_min
